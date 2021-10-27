@@ -5,9 +5,7 @@ pcall(require, "luarocks.loader")
 -- Import widgets 
 local volume_widget = require('awesome-wm-widgets.volume-widget.volume') -- Volume Widget
 local brightness_widget = require("awesome-wm-widgets.brightness-widget.brightness") -- Brightness Widget
-local cpu_widget = require("awesome-wm-widgets.cpu-widget.cpu-widget") -- CPU Widget
 local battery_widget = require("awesome-wm-widgets.battery-widget.battery") -- Battery Widget
-local calendar_widget = require("awesome-wm-widgets.calendar-widget.calendar") -- Text Clock & Calender
 local logout_menu_widget = require("awesome-wm-widgets.logout-menu-widget.logout-menu") -- Logout menu 
 
 
